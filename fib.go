@@ -4,7 +4,7 @@ import "math/big"
 
 // Fibonacci calculates Fibonacci number.
 // This function generated correct values from 0 to 93 sequence number.
-// For bigger values use FibonacciBig function
+// For bigger values use FibonacciBig function.
 func Fibonacci(n uint) uint64 {
 	if n <= 1 {
 		return uint64(n)
@@ -20,7 +20,7 @@ func Fibonacci(n uint) uint64 {
 }
 
 // FibonacciBig calculates Fibonacci number using bit.Int.
-// For the sequence numbers below 94, it is recommended to use Fibonacci function.
+// For the sequence numbers below 94, it is recommended to use Fibonacci function as it is more efficient.
 func FibonacciBig(n uint) *big.Int {
 	if n <= 1 {
 		return big.NewInt(int64(n))

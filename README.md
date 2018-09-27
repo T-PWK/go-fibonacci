@@ -4,6 +4,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/T-PWK/go-fibonacci.svg)](https://github.com/T-PWK/go-fibonacci/issues)
 [![Go Report Card](https://goreportcard.com/badge/github.com/T-PWK/go-fibonacci)](https://goreportcard.com/report/github.com/T-PWK/go-fibonacci)
 [![Coverage Status](https://coveralls.io/repos/github/T-PWK/go-fibonacci/badge.svg?branch=master)](https://coveralls.io/github/T-PWK/go-fibonacci?branch=master)
+[![GoDoc](https://godoc.org/github.com/T-PWK/go-fibonacci?status.svg)](https://godoc.org/github.com/T-PWK/go-fibonacci)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://blog.abelotech.com/mit-license/)
 
 In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones:
