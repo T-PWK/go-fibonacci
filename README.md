@@ -1,9 +1,9 @@
 # High-performance Fibonacci numbers implementation in Go
 
-[![Build Status](https://travis-ci.com/T-PWK/go-fibonacci.svg?branch=master)](https://travis-ci.com/T-PWK/go-fibonacci)
+[![Build Status](https://travis-ci.com/T-PWK/go-fibonacci.svg?branch=v1.0.0)](https://travis-ci.com/T-PWK/go-fibonacci)
 [![GitHub issues](https://img.shields.io/github/issues/T-PWK/go-fibonacci.svg)](https://github.com/T-PWK/go-fibonacci/issues)
 [![Go Report Card](https://goreportcard.com/badge/github.com/T-PWK/go-fibonacci)](https://goreportcard.com/report/github.com/T-PWK/go-fibonacci)
-[![Coverage Status](https://coveralls.io/repos/github/T-PWK/go-fibonacci/badge.svg?branch=master)](https://coveralls.io/github/T-PWK/go-fibonacci?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/T-PWK/go-fibonacci/badge.svg?branch=v1.0.0)](https://coveralls.io/github/T-PWK/go-fibonacci?branch=master)
 [![GoDoc](https://godoc.org/github.com/T-PWK/go-fibonacci?status.svg)](https://godoc.org/github.com/T-PWK/go-fibonacci)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://blog.abelotech.com/mit-license/)
 
@@ -34,8 +34,7 @@ import (
 )
 
 func main() {
-
-  fmt.Println("20: ", fib.Fibonacci(20))
+  fmt.Println("20:  ", fib.Fibonacci(20))
   fmt.Println("200: ", fib.FibonacciBig(200))
 }
 ```
@@ -43,6 +42,6 @@ func main() {
 And the output is
 
 ```
-20:  6765
+20:   6765
 200:  280571172992510140037611932413038677189525
 ```
