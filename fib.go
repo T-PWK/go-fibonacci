@@ -26,12 +26,11 @@ func FibonacciBig(n uint) *big.Int {
 		return big.NewInt(int64(n))
 	}
 
-	var n2, n1, tmp = big.NewInt(0), big.NewInt(1), big.NewInt(0)
+	var n2, n1 = big.NewInt(0), big.NewInt(1)
 
 	for i := uint(1); i < n; i++ {
-		tmp.Set(n1)
-		n1.Add(n1, n2)
-		n2.Set(tmp)
+		n2.Add(n2, n1)
+		n1, n2 = n2, n1
 	}
 
 	return n1
